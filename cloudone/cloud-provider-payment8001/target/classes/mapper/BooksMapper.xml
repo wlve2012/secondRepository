@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.cloud.learn.service.BooksService">
+
+    <resultMap type="com.cloud.learn.dao.Books" id="Books">
+        <result property="bookid" column="bookid" jdbcType="INTEGER"/>
+        <result property="bookname" column="bookname" jdbcType="VARCHAR"/>
+        <result property="price" column="price" jdbcType="INTEGER"/>
+        <result property="remainder" column="remainder" jdbcType="INTEGER"/>
+    </resultMap>
+
+    <select id="getAll"  resultMap="Books">
+        select * from books
+    </select>
+
+    <select id="getById" resultMap="Books" parameterType="INTEGER">
+        select * from books where bookid = #{id}
+    </select>
+
+   <insert id="insert">
+       insert into books(bookid,bookname,price,remainder) values (#{bookid},#{bookname},#{price},#{remainder})
+   </insert>
+
+</mapper>
