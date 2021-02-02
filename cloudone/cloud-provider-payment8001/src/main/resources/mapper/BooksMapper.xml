@@ -3,8 +3,8 @@
 <mapper namespace="com.cloud.learn.service.BooksService">
 
     <resultMap type="com.cloud.learn.dao.Books" id="Books">
-        <result property="bookid" column="bookid" jdbcType="INTEGER"/>
-        <result property="bookname" column="bookname" jdbcType="VARCHAR"/>
+        <result property="book_id" column="book_id" jdbcType="INTEGER"/>
+        <result property="book_name" column="book_name" jdbcType="VARCHAR"/>
         <result property="price" column="price" jdbcType="INTEGER"/>
         <result property="remainder" column="remainder" jdbcType="INTEGER"/>
     </resultMap>
@@ -14,11 +14,11 @@
     </select>
 
     <select id="getById" resultMap="Books" parameterType="INTEGER">
-        select * from books where bookid = #{id}
+        select * from books where book_id = #{id}
     </select>
 
    <insert id="insert">
-       insert into books(bookid,bookname,price,remainder) values (#{bookid},#{bookname},#{price},#{remainder})
+       insert into books(book_id,book_name,price,remainder) values (#{book_id},#{book_name},#{price},#{remainder})
    </insert>
 
 </mapper>

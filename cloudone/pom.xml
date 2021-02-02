@@ -11,6 +11,8 @@
     <modules>
         <module>cloud-provider-payment8001</module>
         <module>cloud-comsumer-order80</module>
+        <module>cloud-common-api</module>
+        <module>cloud-eureka-server7001</module>
     </modules>
     <name>Maven</name>
     <!-- FIXME change it to the project's website -->
@@ -77,5 +79,18 @@
             </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <fork>true</fork>
+                    <addResources>true</addResources>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>

@@ -1,8 +1,10 @@
 spring:
+  application:
+    name: cloud-provider-payment8001
   datasource:
     url: jdbc:mysql://127.0.0.1:3306/hstudent?useUnicode=true&characterEncoding=UTF-8&useSSL=false
-    username: root
-    password: xs
+    username: xs
+    password: xs123
     driver-class-name: com.mysql.jdbc.Driver
 
 mybatis:
@@ -10,3 +12,10 @@ mybatis:
   type-aliases-package: com.cloud.learn.dao
 server:
   port: 8001
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true
