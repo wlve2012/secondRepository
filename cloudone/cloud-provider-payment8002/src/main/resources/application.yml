@@ -11,8 +11,7 @@ mybatis:
   mapper-locations: classpath:mapper/*.xml
   type-aliases-package: com.cloud.learn.dao
 server:
-  port: 8001
-
+  port: 8002
 
 eureka:
   client:
@@ -21,5 +20,5 @@ eureka:
     register-with-eureka: true
     fetch-registry: true
   instance:
-    instance-id: payment8001
+    instance-id: payment8002
     prefer-ip-address: true
