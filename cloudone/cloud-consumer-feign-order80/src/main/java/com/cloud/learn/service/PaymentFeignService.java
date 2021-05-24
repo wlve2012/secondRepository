@@ -15,9 +15,9 @@ public interface PaymentFeignService {
     @GetMapping(value="books/insert")
     public Object create(@RequestBody Books books);
 
-    @GetMapping(value="books//getById/{id}")
+    @GetMapping(value="books/getById/{id}")
     public Object getById(@PathVariable("id") Integer id);
 
-    @GetMapping(value="books//getAll")
+    @GetMapping(value="books/getAll")
     public Object getAll();
 }

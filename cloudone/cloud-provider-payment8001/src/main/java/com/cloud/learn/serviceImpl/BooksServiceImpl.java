@@ -11,8 +11,15 @@ import java.util.List;
 public class BooksServiceImpl implements BooksService {
     @Autowired
     private  BooksService service;
+
+    private int time = 3000;
     @Override
     public List<Books> getAll() {
+        try {
+            Thread.sleep(time);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
         return service.getAll();
     }
 
@@ -25,4 +32,15 @@ public class BooksServiceImpl implements BooksService {
     public void insert(Books book) {
         service.insert(book);
     }
+
+    public String fixServer(){
+        if(time==3000){
+            time = 1;
+        }else {
+            time = 3000;
+        }
+        String s = "time ----- "+time;
+        return s;
+    }
+
 }
