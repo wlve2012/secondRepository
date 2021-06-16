@@ -1,0 +1,35 @@
+server:
+  port: 8804
+
+spring:
+  application:
+    name: stream-rabbitmq-consoume8801
+  cloud:
+    stream:
+      binders:
+        defaultRabbit:
+          type: rabbit
+          enviroment:
+            spring:
+              rabbitmq:
+                host: localhost
+                port: 5672
+                username: guest
+                password: guest
+      bindings:
+        input:
+          binder: defaultRabbit
+          destination: studyExchange
+          content-type: application/json
+          group: atguiguB
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: payment8001
+    prefer-ip-address: true

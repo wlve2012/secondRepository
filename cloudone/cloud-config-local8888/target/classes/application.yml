@@ -1,0 +1,32 @@
+#spring:
+#  profiles:
+#    active: native
+#  application:
+#    name: spring_config_server
+#  cloud:
+#    config:
+#      server:
+#        native:
+#          search-locations: classpath:config/
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wlve2012/config-center
+          username: wlve2012
+          password: xiongshuai123
+          default-label: main
+server:
+  port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka
+    register-with-eureka: true
+    fetch-registry: true
+  instance:
+    instance-id: spring_config_server
+    prefer-ip-address: true
+

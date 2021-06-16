@@ -1,0 +1,37 @@
+#spring:
+#  rabbitmq:
+#    host: localhost
+#    username: guest
+#    password: guest
+#    port: 5672
+#  cloud:
+#    config:
+#      uri: http://127.0.0.1:9003
+#      profile: dev
+#      name: application
+#    consul:
+#      host: localhost
+#      port: 8500
+#  application:
+#    name: cloud-payment-service
+#  datasource:
+#    url: jdbc:mysql://127.0.0.1:3306/hstudent?useUnicode=true&characterEncoding=UTF-8&useSSL=false
+#    username: xs
+#    password: xs123
+#    driver-class-name: com.mysql.jdbc.Driver
+#
+#mybatis:
+#  mapper-locations: classpath:mapper/*.xml
+#  type-aliases-package: com.cloud.learn.dao
+#server:
+#  port: 8002
+#
+#eureka:
+#  client:
+#    service-url:
+#      defaultZone: http://eureka7001.com:7001/eureka
+#    register-with-eureka: true
+#    fetch-registry: true
+#  instance:
+#    instance-id: payment8002
+#    prefer-ip-address: true

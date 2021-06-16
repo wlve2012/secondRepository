@@ -2,9 +2,27 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-common-api" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-comsumer-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-client8887" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-config-local8888" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-consumer-feign-order80" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server7001" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server7002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-eureka-server7003" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-gateway-gateway9527" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-hystrix-payment8001" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8001" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/cloud-provider-payment8001/consumer88002" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/comsumer8802" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-provider-payment8004" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/cloud-stream-rabbitmq-consumer8804" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud_bus_server9003" charset="UTF-8" />
   </component>
 </project>

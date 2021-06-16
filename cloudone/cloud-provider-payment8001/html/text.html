@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .bubble{
+        position: relative;
+        padding: 0.75em;
+        color: #ffffff;
+        font-size: 0.9em;
+        line-height: 1.3em;
+        text-align: left;
+        border-radius: 0.5em;
+        margin-left: 3.6em;
+        margin-top: 1.2em;
+        margin-bottom: 1.2em;
+        margin-right: 5.2em;
+        float: left;
+        background-color: #60d8ce;
+        height: 4em;
+    }
+    .bubble:after {
+        content: '';
+        position: absolute;
+        width: 0;
+        height: 0;
+        border: 15px solid rgba(0, 0, 0, 0);
+        border-left-width: 0;
+    }
+    .bubble-left:after {
+        border-right-color: #60d8ce;
+        top: 0%;
+        right: 100%;
+        margin-top: 0.9em;
+        border-left-width: 0.0em;
+        border-right-width: 0.6em;
+        border-bottom-width: 0.4em;
+        border-top-width: 0.4em;
+    }
+    .bubble-right:after {
+        border-left-color: #60d8ce;
+        top: 0%;    left: 100%;
+        margin-top: 0.9em;
+        border-right-width: 0.0em;
+        border-left-width: 0.6em;
+        border-bottom-width: 0.4em;
+        border-top-width: 0.4em;
+    }
+    .bubble-top:after {
+        border-bottom-color: #60d8ce;
+        left: 0%;
+        bottom: 100%;
+        margin-left: 1.9em;
+        border-top-width: 0.0em;
+        border-bottom-width: 0.6em;
+        border-left-width: 0.4em;
+        border-right-width: 0.4em;
+    }
+    .bubble-bottom:after {
+        border-top-color: #60d8ce;
+        left: 0%;
+        top: 100%;
+        margin-left: 1.9em;
+        border-bottom-width: 0.0em;
+        border-top-width: 0.6em;
+        border-left-width: 0.4em;
+        border-right-width: 0.4em;
+    }
+    .demo_line_02{
+        height: 1px;
+        border-top: 1px solid #ddd;
+        text-align: center;
+    }
+    .demo_line_02 span{
+        position: relative;
+        top: -8px;
+        background: #fff;
+        padding: 0 20px;
+    }
+</style>
+
+<body>
+    <!--<div class="bubble bubble-left">箭头指向左边的气泡</div>
+    <div class="bubble bubble-right">箭头指向右边的气泡</div>-->
+    <div class="bubble bubble-top">箭头指向上边的气泡</div>
+    <div class="bubble bubble-bottom">箭头指向下边的气泡</div>
+
+    <div class="demo_line_02"><span>小小分隔线 巧用色实现</span></div>
+</body>
+</html>

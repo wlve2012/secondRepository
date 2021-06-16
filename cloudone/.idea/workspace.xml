@@ -1,39 +1,108 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df9cc71c-7677-4549-864a-442b8ef5cc65" name="Default Changelist" comment="" />
+    <list default="true" id="df9cc71c-7677-4549-864a-442b8ef5cc65" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/cloud-provider-payment8001/html/text.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/ConfigureBean/ConfigureService.java" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/ConfigureBean/ConfigureService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-eureka-server7001/src/main/resources/application.yml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/target/" />
     <ignored path="$PROJECT_DIR$/cloud-provider-payment8001/consumer88002/target/" />
     <ignored path="$PROJECT_DIR$/comsumer8802/target/" />
     <ignored path="$PROJECT_DIR$/cloud-comsumer-order80/target/" />
+    <ignored path="$PROJECT_DIR$/common-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-common-api/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-server7001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-server7002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment8002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-payment8004/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-feign-order80/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-eureka-server7003/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-provider-hystrix-payment8001/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-consumer-feign-hystrix-order80/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-gateway-gateway9527/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-local8888/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-config-client8887/target/" />
+    <ignored path="$PROJECT_DIR$/spring_bus_server_15672/target/" />
+    <ignored path="$PROJECT_DIR$/spring_bus_server9003/target/" />
+    <ignored path="$PROJECT_DIR$/cloud_bus_server9003/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/cloud-stream-rabbitmq-consumer8804/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/target/" />
+    <ignored path="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/controller/BooksController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/serviceImpl/receiveMessage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="242">
+              <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#458#459#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/serviceImpl/MessageReceiverImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="154">
+              <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/CloudProviderPayment8001.java">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1364">
+              <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="66">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/CloudStreamConsumer8005.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="132">
-              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+              <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -42,49 +111,35 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="242">
-              <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/controller/OrderController.java">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/java/com/cloud/learn/serviceImpl/receiveMessage.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/CloudStreamConsumer8801.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#421#422#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="22">
+              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -95,35 +150,68 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/CloudProviderPayment8001.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/Application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/Books.xml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/dao/Books.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/service/BooksService.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/serviceImpl/BooksServiceImpl.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/BooksMapper.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/serviceImpl/MessageServer.java" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/controller/BooksController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/consumer88002/pom.xml" />
-        <option value="$PROJECT_DIR$/comsumer8802/src/main/java/com/cloud/learn/StreamMQMain8002.java" />
-        <option value="$PROJECT_DIR$/comsumer8802/pom.xml" />
-        <option value="$PROJECT_DIR$/comsumer8802/src/main/java/com/cloud/learn/dao/Books.java" />
-        <option value="$PROJECT_DIR$/comsumer8802/src/main/java/com/cloud/learn/Controller/ReceiveMessageListernerController.java" />
-        <option value="$PROJECT_DIR$/comsumer8802/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-comsumer-order80/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/OrderMain80.java" />
-        <option value="$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/dao/Books.java" />
-        <option value="$PROJECT_DIR$/cloud-comsumer-order80/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_bus_server_15672/src/main/java/com/cloud/learn/Spring_bus_server15672.java" />
+        <option value="$PROJECT_DIR$/spring_bus_server_15672/src/main/java/com/cloud/learn/SpringBusServer15672.java" />
+        <option value="$PROJECT_DIR$/spring_bus_server_15672/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring_bus_server_15672/pom.xml" />
+        <option value="$PROJECT_DIR$/spring_bus_server9003/src/main/java/com/cloud/learn/controller/MessageServiceController.java" />
+        <option value="$PROJECT_DIR$/spring_bus_server9003/src/main/java/com/cloud/learn/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/spring_bus_server9003/src/main/java/com/cloud/learn/SpringBusServer9003.java" />
+        <option value="$PROJECT_DIR$/spring_bus_server9003/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/controller/OrderController.java" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/CloudProviderPayment8001.java" />
+        <option value="$PROJECT_DIR$/cloud_bus_server9003/src/main/java/com/cloud/learn/SpringBusServer9003.java" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_bus_server9003/src/main/java/com/cloud/learn/CloudBusServer9003.java" />
         <option value="$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/cloud-provider-payment8001/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_bus_server9003/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud_bus_server9003/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/bootstrap.yml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cloud/learn/controller/ConfigController.java" />
+        <option value="$PROJECT_DIR$/cloud_bus_server9003/src/main/java/com/cloud/learn/service/MessageService.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/CloudStreamConsumer8002.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/appaication.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/controller/SendMessageController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/serviceImpl/MessageProviderImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/CloudStreamProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/CloudStreamConsumer8801.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/service/MessageProvider.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/service/MessageReceiver.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/controller/receiveMessageController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/server/MultiThreadVisibilityDemo.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/server/SignleThreadVisibilityDemo.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/controller/SendMessageController.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/CloudStreamConsumer8004.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/java/com/cloud/learn/CloudStreamConsumer8004.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/CloudStreamConsumer8005.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/serviceImpl/receiveMessage.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/serviceImpl/MessageReceiverImpl.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/java/com/cloud/learn/serviceImpl/receiveMessage.java" />
+        <option value="$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/pom.xml" />
+        <option value="$PROJECT_DIR$/cloud-provider-payment8001/html/text.html" />
       </list>
     </option>
   </component>
@@ -142,8 +230,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="mavenHome" value="D:/Program Files/maven/apache-maven-3.6.1-bin/apache-maven-3.6.1" />
-        <option name="userSettingsFile" value="D:\Program Files\maven\apache-maven-3.6.1-bin\apache-maven-3.6.1\conf\settings.xml" />
+        <option name="localRepository" value="D:\Program Files\apache-maven-3.5.2\repository" />
+        <option name="mavenHome" value="D:/Program Files/apache-maven-3.5.2" />
+        <option name="userSettingsFile" value="D:\Program Files\apache-maven-3.5.2\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
@@ -157,29 +246,32 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="cloud-provider-payment8001" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Maven" type="9519ce18:MavenProjectsStructure$ProjectNode" />
           <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="502" />
-    <option name="y" value="2" />
-    <option name="width" value="1285" />
-    <option name="height" value="890" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="-3" />
+    <option name="y" value="56" />
+    <option name="width" value="1189" />
+    <option name="height" value="759" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
+      <hideEmptyPackages ProjectPane="true" />
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -187,178 +279,16 @@
               <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
               <item name="cloudone" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-comsumer-order80" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud" type="462c0819:PsiDirectoryNode" />
-              <item name="learn" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="cloudone" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cloudone" type="462c0819:PsiDirectoryNode" />
-              <item name="cloud-provider-payment8001" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -366,21 +296,37 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1612109514729" />
-    <property name="last_opened_file_path" value="F:/SvnRepository/smp_payPlatform" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1623828783141" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud_bus_server9003" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.16144201" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="project.structure.side.proportion" value="0.2948164" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-config-local8888\src\main\resources\config" />
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-config-local8888\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.cloud.learn.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="F:\学习\cloudone\cloud-provider-payment8001\src\main\resources\mapper" />
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-stream-rabbitmq-consumer8805\src\main\resources" />
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-stream-rabbitmq-consumer8804\src\main\resources" />
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-config-client8887\src\main\resources" />
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-common-api\src\main\java\com\cloud\learn\dao" />
+      <recent name="D:\gitRepositories\secondRepository\cloudone\cloud-provider-payment8002\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -391,9 +337,36 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.27247956" />
   </component>
-  <component name="RunManager">
-    <configuration name="CloudProviderPayment8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.CloudStreamConsumer8004">
+    <configuration name="MultiThreadVisibilityDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.cloud.learn.server.MultiThreadVisibilityDemo" />
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudBusServer9003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud_bus_server9003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudBusServer9003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudProviderPayment8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="cloud-provider-payment8001" />
       <extension name="coverage">
         <pattern>
@@ -406,9 +379,232 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="CloudProviderPayment8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudProviderPayment8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamConsumer8002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-stream-rabbitmq-consumer8802" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudStreamConsumer8002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamConsumer8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8804" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudStreamConsumer8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamConsumer8005" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8805" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudStreamConsumer8005" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamConsumer8801" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-consumer8801" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudStreamConsumer8801" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CloudStreamProvider" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-stream-rabbitmq-provider8803" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.CloudStreamProvider" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Config8888" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-config-local8888" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.Config8888" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientApplication8887" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-config-client8887" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.ConfigClientApplication8887" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-eureka-server7001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.EurekaServer7001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7002" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-eureka-server7002" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.EurekaServer7002" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EurekaServer7003" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-eureka-server7003" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.EurekaServer7003" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignHystrixOrder" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-hystrix-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.FeignHystrixOrder" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FeignOrderMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-consumer-feign-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.FeignOrderMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateWay9527" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-gateway-gateway9527" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.GateWay9527" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderMain80" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-comsumer-order80" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.OrderMain80" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentHystrixMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="cloud-provider-hystrix-payment8001" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.PaymentHystrixMain8001" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PaymentMain8004" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="cloud-provider-payment8004" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.cloud.learn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.cloud.learn.PaymentMain8004" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.CloudBusServer9003" />
+      <item itemvalue="Spring Boot.EurekaServer7001" />
+      <item itemvalue="Spring Boot.CloudProviderPayment8001" />
+      <item itemvalue="Spring Boot.OrderMain80" />
+      <item itemvalue="Spring Boot.EurekaServer7002" />
+      <item itemvalue="Spring Boot.CloudProviderPayment8002" />
+      <item itemvalue="Spring Boot.EurekaServer7003" />
+      <item itemvalue="Spring Boot.PaymentMain8004" />
+      <item itemvalue="Spring Boot.FeignOrderMain" />
+      <item itemvalue="Spring Boot.PaymentHystrixMain8001" />
+      <item itemvalue="Spring Boot.FeignHystrixOrder" />
+      <item itemvalue="Spring Boot.GateWay9527" />
+      <item itemvalue="Spring Boot.Config8888" />
+      <item itemvalue="Spring Boot.ConfigClientApplication8887" />
+      <item itemvalue="Spring Boot.CloudStreamConsumer8002" />
+      <item itemvalue="Application.MultiThreadVisibilityDemo" />
+      <item itemvalue="Spring Boot.CloudStreamProvider" />
+      <item itemvalue="Spring Boot.CloudStreamConsumer8801" />
+      <item itemvalue="Spring Boot.CloudStreamConsumer8005" />
+      <item itemvalue="Spring Boot.CloudStreamConsumer8004" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.CloudProviderPayment8001" />
+        <item itemvalue="Spring Boot.CloudStreamConsumer8801" />
+        <item itemvalue="Spring Boot.CloudStreamConsumer8004" />
+        <item itemvalue="Spring Boot.CloudStreamConsumer8005" />
+        <item itemvalue="Spring Boot.CloudStreamProvider" />
+        <item itemvalue="Application.MultiThreadVisibilityDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -429,18 +625,88 @@
       <workItem from="1611843247347" duration="5540000" />
       <workItem from="1612099153561" duration="6189000" />
       <workItem from="1612189806925" duration="601000" />
+      <workItem from="1612226719903" duration="584000" />
+      <workItem from="1612227341461" duration="664000" />
+      <workItem from="1612228029503" duration="7528000" />
+      <workItem from="1612244536847" duration="1276000" />
+      <workItem from="1612245832813" duration="1127000" />
+      <workItem from="1612246983430" duration="1529000" />
+      <workItem from="1612249168582" duration="4343000" />
+      <workItem from="1612254772345" duration="49000" />
+      <workItem from="1612333962438" duration="6736000" />
+      <workItem from="1612344373175" duration="2245000" />
+      <workItem from="1612398525187" duration="2360000" />
+      <workItem from="1612420063854" duration="4722000" />
+      <workItem from="1612486423058" duration="722000" />
+      <workItem from="1612752346320" duration="1807000" />
+      <workItem from="1612764511176" duration="3132000" />
+      <workItem from="1612834009190" duration="595000" />
+      <workItem from="1612836043164" duration="3601000" />
+      <workItem from="1612839804326" duration="7618000" />
+      <workItem from="1613572265113" duration="70000" />
+      <workItem from="1613608652979" duration="7506000" />
+      <workItem from="1613628917190" duration="10852000" />
+      <workItem from="1613694815844" duration="685000" />
+      <workItem from="1613695535522" duration="1417000" />
+      <workItem from="1614844737423" duration="270000" />
+      <workItem from="1614856520710" duration="147000" />
+      <workItem from="1616393403918" duration="172000" />
+      <workItem from="1616574089768" duration="1308000" />
+      <workItem from="1619422412398" duration="429000" />
+      <workItem from="1619423539520" duration="2132000" />
+      <workItem from="1619426268617" duration="4505000" />
+      <workItem from="1619487207203" duration="7042000" />
+      <workItem from="1619571177883" duration="8524000" />
+      <workItem from="1619656909622" duration="9742000" />
+      <workItem from="1619678916816" duration="155000" />
+      <workItem from="1619679124357" duration="10613000" />
+      <workItem from="1619743075340" duration="6692000" />
+      <workItem from="1620738715370" duration="893000" />
+      <workItem from="1621835912705" duration="11734000" />
+      <workItem from="1621850984001" duration="26000" />
+      <workItem from="1621904207119" duration="1189000" />
+      <workItem from="1622513422438" duration="2395000" />
+      <workItem from="1623826779399" duration="1574000" />
     </task>
+    <task id="LOCAL-00001" summary="服务注册中心">
+      <created>1612252571755</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1612252571755</updated>
+    </task>
+    <task id="LOCAL-00002" summary="服务注册中心">
+      <created>1612486469453</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1612486469453</updated>
+    </task>
+    <task id="LOCAL-00003" summary="yyy">
+      <created>1613572308891</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1613572308891</updated>
+    </task>
+    <task id="LOCAL-00004" summary="yyy">
+      <created>1621850070482</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621850070482</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12330000" />
+    <option name="totallyTimeSpent" value="153040000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="402" y="2" width="1028" height="712" extended-state="0" />
-    <editor active="true" />
+    <frame x="-3" y="56" width="1189" height="759" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.32061857" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.3224092" />
+      <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.224595" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
       <window_info id="UI Designer" order="4" />
@@ -449,168 +715,459 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.5339943" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.46600565" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987755" weight="0.28892455" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35559267" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32830188" />
+      <window_info active="true" anchor="bottom" id="Event Log" order="9" sideWeight="0.5039858" side_tool="true" visible="true" weight="0.2724359" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38607594" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" sideWeight="0.4993573" weight="0.26666668" />
+      <window_info anchor="bottom" id="Problems" order="14" sideWeight="0.4993573" weight="0.32928476" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" sideWeight="0.49601418" visible="true" weight="0.2724359" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="right" id="Maven Projects" order="5" visible="true" weight="0.32886598" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.20951156" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="right" id="Theme Preview" order="8" />
       <window_info anchor="right" id="Bean Validation" order="9" />
+      <window_info active="true" anchor="right" id="Module Dependencies" order="10" visible="true" weight="0.32969153" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49873418" visible="true" weight="0.20501286" />
+      <window_info id="Structure" order="1" sideWeight="0.5012658" side_tool="true" weight="0.224595" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4987755" weight="0.20242915" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35559267" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32830188" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5012245" side_tool="true" weight="0.30669144" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.38607594" />
+      <window_info anchor="bottom" id="Java Enterprise" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="13" weight="0.56170887" />
+      <window_info anchor="bottom" id="Problems" order="14" />
+      <window_info anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4439946" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" weight="0.1737013" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="服务注册中心" />
+    <MESSAGE value="yyy" />
+    <option name="LAST_COMMIT_MESSAGE" value="yyy" />
+  </component>
+  <component name="XPathView.XPathProjectComponent">
+    <history />
+    <find-history />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/CloudProviderPayment8001.java" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/Books.xml" />
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/PaymentDao.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/reflection/Reflector.class">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cloud/learn/controller/BooksController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="439" selection-start-line="439" selection-end-line="439" />
+        <state relative-caret-position="-506">
+          <caret line="24" column="25" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="25" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/service/BooksService.java">
+    <entry file="file://$PROJECT_DIR$/cloud_bus_server9003/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-config-local8888/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="18" column="29" lean-forward="true" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="79" column="50" selection-start-line="79" selection-start-column="44" selection-end-line="79" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_bus_server9003/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="16" column="7" selection-start-line="16" selection-start-column="7" selection-end-line="16" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_bus_server9003/src/main/java/com/cloud/learn/controller/MessageServiceController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud_bus_server9003/src/main/java/com/cloud/learn/CloudBusServer9003.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cloud/learn/CloudProviderPayment8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="11" column="34" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/consumer88002/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/comsumer8802/src/main/java/com/cloud/learn/StreamMQMain8002.java" />
-    <entry file="file://$PROJECT_DIR$/comsumer8802/pom.xml" />
-    <entry file="file://$PROJECT_DIR$/comsumer8802/src/main/java/com/cloud/learn/dao/Books.java" />
-    <entry file="file://$PROJECT_DIR$/comsumer8802/src/main/java/com/cloud/learn/Controller/ReceiveMessageListernerController.java" />
-    <entry file="file://$PROJECT_DIR$/comsumer8802/src/main/resources/application.yml" />
-    <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/OrderMain80.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="5" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#149#150#0" expanded="true" />
-            <element signature="e#181#182#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/dao/Books.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="18" selection-end-line="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/dao/Books.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cloud/learn/controller/ConfigController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <caret line="13" column="21" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/java/com/cloud/learn/serviceImpl/BooksServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="110">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/serviceImpl/BooksServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8002/src/main/resources/bootstrap.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+        <state relative-caret-position="286">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/mapper/BooksMapper.xml">
+    <entry file="file://$PROJECT_DIR$/cloud-common-api/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="183">
-          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
+        <state relative-caret-position="-190" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/controller/BooksController.java">
+    <entry file="file://$PROJECT_DIR$/cloud_bus_server9003/src/main/java/com/cloud/learn/service/MessageService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#458#459#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="357">
+          <caret line="41" column="5" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        <state relative-caret-position="1848">
+          <caret line="84" column="19" selection-start-line="13" selection-start-column="3" selection-end-line="84" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8002/src/main/resources/application.yml" />
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8004/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="14" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="14" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="11" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="25" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cloud-comsumer-order80/src/main/java/com/cloud/learn/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="330">
+          <caret line="15" selection-start-line="15" selection-end-line="23" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/src/main/java/com/cloud/learn/CloudProviderPayment8001.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.5.2/repository/org/springframework/cloud/spring-cloud-stream/3.0.1.RELEASE/spring-cloud-stream-3.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Source.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/service/MessageProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Program Files/apache-maven-3.5.2/repository/org/springframework/cloud/spring-cloud-stream/3.0.1.RELEASE/spring-cloud-stream-3.0.1.RELEASE.jar!/org/springframework/cloud/stream/messaging/Sink.class">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
-          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/controller/SendMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="388">
+          <caret line="19" column="31" lean-forward="true" selection-start-line="19" selection-start-column="31" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/server/MultiThreadVisibilityDemo.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/server/SignleThreadVisibilityDemo.java" />
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="59" column="58" selection-start-line="59" selection-start-column="52" selection-end-line="59" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/CloudStreamProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/java/com/cloud/learn/serviceImpl/MessageProviderImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/controller/receiveMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/service/MessageReceiver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="110">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/controller/SendMessageController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="19" column="38" selection-start-line="19" selection-start-column="38" selection-end-line="19" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/java/com/cloud/learn/CloudStreamConsumer8002.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8803/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/cloud-stream-rabbitmq-consumer8804/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="63" column="19" selection-start-line="63" selection-start-column="19" selection-end-line="63" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="23" column="25" selection-start-line="23" selection-start-column="25" selection-end-line="23" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/java/com/cloud/learn/CloudStreamConsumer8004.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="25" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/serviceImpl/receiveMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#327#328#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/serviceImpl/MessageReceiverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="12" column="35" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1364">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/java/com/cloud/learn/CloudStreamConsumer8005.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="8" column="38" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8804/src/main/java/com/cloud/learn/serviceImpl/receiveMessage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="11" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/src/main/java/com/cloud/learn/CloudStreamConsumer8801.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#421#422#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8805/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-provider-payment8001/html/text.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="75" column="23" lean-forward="true" selection-start-line="75" selection-start-column="23" selection-end-line="75" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8801/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
         </state>
       </provider>
     </entry>
@@ -620,10 +1177,11 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>cloud-config-local8888:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.2948164" />
               </list>
             </option>
           </splitter-proportions>
@@ -666,12 +1224,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>cloud-provider-payment8001</last-edited>
+          <last-edited>Spring|cloud-stream-rabbitmq-consumer8805</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
-                <option value="0.6" />
+                <option value="0.2948164" />
               </list>
             </option>
           </splitter-proportions>
@@ -695,7 +1252,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.2" />
+                <option value="0.20518358" />
               </list>
             </option>
           </splitter-proportions>

@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: config-bus-server9003
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: config-bus-server9003
+      server:
+        git:
+          uri: https://github.com/wlve2012/config-center
+          username: wlve2012
+          password: xiongshuai123
+          default-label: main
+server:
+  port: 9003
+eureka:
+  client:
+    serviceUrl:
+      #注册中心的地址
+      defaultZone: http://eureka7001.com:7001/eureka
+  instance:
+    instance-id: config-bus-server9003
